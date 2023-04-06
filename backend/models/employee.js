@@ -12,7 +12,7 @@ const EmployeeSchema = mongoose.Schema({
   },
   office: {
     type: String,
-    required: [true, "Please Enter Employee Company Name"],
+    required: [true, "Please Enter Office Location"],
 },
 salary: {
     type: Number,
